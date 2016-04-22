@@ -1,4 +1,4 @@
-##SuiteCRM 7.5.2
+##Cabinet Compétences suralimenté par SuiteCRM 7.5.2
 
 ### What's in this repository ###
 
