@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 19:02:33
+// created: 2016-05-14 14:38:59
 $mod_strings = array (
   'LBL_FROM_ADDR' => '"From" Address: ',
   'LBL_REPLY_ADDR' => '"Reply-to" Address: ',

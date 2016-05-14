@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2016-04-12 19:02:34
+<?php /* Smarty version 2.6.29, created on 2016-05-06 14:53:29
          compiled from themes/SuiteR/tpls/footer.tpl */ ?>
 </div>
 </div>

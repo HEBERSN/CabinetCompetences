@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 19:02:33
+// created: 2016-05-14 14:39:02
 $mod_strings = array (
   'LBL_ASSIGNED_TO_NAME' => 'Contract Manager',
   'LBL_CONTRACT_ACCOUNT' => 'Account',

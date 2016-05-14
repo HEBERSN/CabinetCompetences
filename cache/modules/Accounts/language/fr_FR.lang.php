@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-13 00:35:16
+// created: 2016-05-14 14:59:48
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création:',
@@ -118,7 +118,7 @@ $mod_strings = array (
   'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
   'LBL_CALLS_SUBPANEL_TITLE' => 'Appels',
   'LBL_CAMPAIGN_ID' => 'Campagne (ID)',
-  'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
+  'LBL_CASES_SUBPANEL_TITLE' => 'Sinistres',
   'LBL_EMAIL_OPT_OUT' => 'Email Opt Out:',
   'LBL_HISTORY_SUBPANEL_TITLE' => 'Historique et Activités terminées',
   'LBL_HOMEPAGE_TITLE' => 'Mes Comptes',
@@ -154,4 +154,5 @@ $mod_strings = array (
   'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Assigné à',
   'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Historique des emails des contacts liés',
   'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Produits et services achetés',
+  'LBL_CASES' => 'Sinistres',
 );

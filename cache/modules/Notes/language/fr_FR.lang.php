@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 19:10:43
+// created: 2016-05-14 15:00:06
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
   'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
@@ -70,4 +70,5 @@ $mod_strings = array (
   'LBL_DATE_ENTERED' => 'Date de création',
   'LBL_DATE_MODIFIED' => 'Date de modification',
   'LBL_DELETED' => 'Supprimé',
+  'LBL_CASES' => 'Sinistres',
 );

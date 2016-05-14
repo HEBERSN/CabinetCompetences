@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 19:10:43
+// created: 2016-05-14 15:00:07
 $mod_strings = array (
   'LBL_ID' => 'ID:',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -173,7 +173,7 @@ $mod_strings = array (
   'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
   'LBL_COPY_ADDRESS_CHECKED_PRIMARY' => 'Copie de l&#39;adresse principale',
   'LBL_COPY_ADDRESS_CHECKED_ALT' => 'Copie de l&#39;adresse secondaire',
-  'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
+  'LBL_CASES_SUBPANEL_TITLE' => 'Sinistres',
   'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
   'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projets',
   'LBL_PROJECTS_RESOURCES' => 'Ressources projet',
@@ -217,4 +217,5 @@ $mod_strings = array (
   'LBL_NO_JOOMLA_URL' => 'Pas d\'URL spécifiée pour le portail',
   'LBL_PORTAL_USER_TYPE' => 'Type de portail utilisateur',
   'LBL_PORTAL_ACCOUNT_DISABLED' => 'Compte désactivé',
+  'LBL_CASES' => 'Sinistres',
 );

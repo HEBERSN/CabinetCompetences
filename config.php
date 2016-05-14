@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 16:04:13
+// created: 2016-05-14 14:38:57
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -93,7 +93,7 @@ $sugar_config = array (
     'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'root',
-    'db_password' => '',
+    'db_password' => 'root',
     'db_name' => 'cabinet_competences',
     'db_type' => 'mysql',
     'db_port' => '',
@@ -230,7 +230,7 @@ $sugar_config = array (
   'default_subpanel_tabs' => true,
   'default_swap_last_viewed' => false,
   'default_swap_shortcuts' => false,
-  'default_theme' => 'Suite7',
+  'default_theme' => 'CabinetCompetences',
   'default_time_format' => 'h:ia',
   'default_user_is_admin' => false,
   'default_user_name' => '',
@@ -262,7 +262,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 2,
+  'js_lang_version' => 5,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -400,7 +400,7 @@ $sugar_config = array (
   'vcal_time' => '2',
   'verify_client_ip' => true,
   'disabled_languages' => 'en_us',
-  'disabled_themes' => '',
+  'disabled_themes' => ',',
   'default_module_favicon' => false,
   'dashlet_auto_refresh_min' => '30',
   'enable_action_menu' => true,

@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-13 00:35:15
+// created: 2016-05-14 14:59:48
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -140,4 +140,5 @@ $mod_strings = array (
   'LBL_RESCHEDULE_ERROR2' => 'Merci de choisir la cause',
   'LBL_RESCHEDULE_PANEL' => 'Replanifier',
   'LBL_RESCHEDULE_HISTORY' => 'Historique des tentatives d\'appel',
+  'LBL_CASE' => 'Ticket',
 );

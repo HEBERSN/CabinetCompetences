@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-13 00:35:16
+// created: 2016-05-14 15:00:07
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -25,7 +25,7 @@ $mod_strings = array (
   'LBL_FIRST_NAME' => 'Prénom:',
   'LBL_LAST_NAME' => 'Nom de famille:',
   'LBL_TITLE' => 'Fonction:',
-  'LBL_DEPARTMENT' => 'Service:',
+  'LBL_DEPARTMENT' => 'Secteur d&#039;activité:',
   'LBL_DO_NOT_CALL' => 'Ne pas appeler:',
   'LBL_HOME_PHONE' => 'Ligne directe:',
   'LBL_MOBILE_PHONE' => 'Téléphone mobile:',
@@ -76,7 +76,7 @@ $mod_strings = array (
   'ERR_DELETE_RECORD' => 'Un numéro d&#39;enregistrement doit être renseigné pour toute suppression.',
   'LBL_ACCOUNT_DESCRIPTION' => 'Description compte',
   'LBL_ACCOUNT_ID' => 'Compte (ID)',
-  'LBL_ACCOUNT_NAME' => 'Nom du compte:',
+  'LBL_ACCOUNT_NAME' => 'Entreprise',
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités à réaliser',
   'LBL_ADD_BUSINESSCARD' => 'Saisir carte de visite',
   'LBL_ALTERNATE_ADDRESS' => 'Adresse secondaire:',
@@ -121,7 +121,7 @@ $mod_strings = array (
   'LBL_prospect_SOURCE_DESCRIPTION' => 'Description de la principale origine du prospect:',
   'LBL_prospect_SOURCE' => 'Origine principale:',
   'LBL_LIST_ACCEPT_STATUS' => 'Statut d&#39;acceptation',
-  'LBL_LIST_ACCOUNT_NAME' => 'Nom Compte',
+  'LBL_LIST_ACCOUNT_NAME' => 'Entreprise',
   'LBL_LIST_CONTACT_NAME' => 'Nom du prospect',
   'LBL_LIST_CONTACT_ROLE' => 'Rôle',
   'LBL_LIST_DATE_ENTERED' => 'Date de création',
@@ -253,4 +253,11 @@ $mod_strings = array (
   'LBL_THANKS_FOR_SUBMITTING_LEAD' => 'Merci. Votre inscription à bien été prise en compte.',
   'LNK_IMPORT_LEADS' => 'Import Prospects',
   'LBL_FP_EVENTS_LEADS_1_FROM_FP_EVENTS_TITLE' => 'Évènements',
+  'LBL_DATE_APPEL_PROSPECT' => 'Date d&#039;appel',
+  'LBL_EDITVIEW_PANEL1' => 'Suivi d&#039;appels',
+  'LBL_DETAILVIEW_PANEL1' => 'Suivi d&#039;appels',
+  'LBL_STATUT_APPEL' => 'Statut d&#039;appel',
+  'LBL_RESULTAT_PROSPECT' => 'Résultat prospect',
+  'LBL_SATURATION' => 'Saturation',
+  'LBL_BRANCHE' => 'Branche d&#039;activité',
 );

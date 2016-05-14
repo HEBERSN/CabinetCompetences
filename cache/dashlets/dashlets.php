@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 22:43:45
+// created: 2016-05-06 17:53:55
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -22,19 +22,19 @@ $dashletsFiles = array (
     'meta' => 'modules/AM_TaskTemplates/Dashlets/AM_TaskTemplatesDashlet/AM_TaskTemplatesDashlet.meta.php',
     'module' => 'AM_TaskTemplates',
   ),
-  'AOK_KnowledgeBaseDashlet' => 
-  array (
-    'file' => 'modules/AOK_KnowledgeBase/Dashlets/AOK_KnowledgeBaseDashlet/AOK_KnowledgeBaseDashlet.php',
-    'class' => 'AOK_KnowledgeBaseDashlet',
-    'meta' => 'modules/AOK_KnowledgeBase/Dashlets/AOK_KnowledgeBaseDashlet/AOK_KnowledgeBaseDashlet.meta.php',
-    'module' => 'AOK_KnowledgeBase',
-  ),
   'AOK_Knowledge_Base_CategoriesDashlet' => 
   array (
     'file' => 'modules/AOK_Knowledge_Base_Categories/Dashlets/AOK_Knowledge_Base_CategoriesDashlet/AOK_Knowledge_Base_CategoriesDashlet.php',
     'class' => 'AOK_Knowledge_Base_CategoriesDashlet',
     'meta' => 'modules/AOK_Knowledge_Base_Categories/Dashlets/AOK_Knowledge_Base_CategoriesDashlet/AOK_Knowledge_Base_CategoriesDashlet.meta.php',
     'module' => 'AOK_Knowledge_Base_Categories',
+  ),
+  'AOK_KnowledgeBaseDashlet' => 
+  array (
+    'file' => 'modules/AOK_KnowledgeBase/Dashlets/AOK_KnowledgeBaseDashlet/AOK_KnowledgeBaseDashlet.php',
+    'class' => 'AOK_KnowledgeBaseDashlet',
+    'meta' => 'modules/AOK_KnowledgeBase/Dashlets/AOK_KnowledgeBaseDashlet/AOK_KnowledgeBaseDashlet.meta.php',
+    'module' => 'AOK_KnowledgeBase',
   ),
   'AORReportsDashlet' => 
   array (
@@ -64,19 +64,19 @@ $dashletsFiles = array (
     'meta' => 'modules/AOS_PDF_Templates/Dashlets/AOS_PDF_TemplatesDashlet/AOS_PDF_TemplatesDashlet.meta.php',
     'module' => 'AOS_PDF_Templates',
   ),
-  'AOS_ProductsDashlet' => 
-  array (
-    'file' => 'modules/AOS_Products/Dashlets/AOS_ProductsDashlet/AOS_ProductsDashlet.php',
-    'class' => 'AOS_ProductsDashlet',
-    'meta' => 'modules/AOS_Products/Dashlets/AOS_ProductsDashlet/AOS_ProductsDashlet.meta.php',
-    'module' => 'AOS_Products',
-  ),
   'AOS_Product_CategoriesDashlet' => 
   array (
     'file' => 'modules/AOS_Product_Categories/Dashlets/AOS_Product_CategoriesDashlet/AOS_Product_CategoriesDashlet.php',
     'class' => 'AOS_Product_CategoriesDashlet',
     'meta' => 'modules/AOS_Product_Categories/Dashlets/AOS_Product_CategoriesDashlet/AOS_Product_CategoriesDashlet.meta.php',
     'module' => 'AOS_Product_Categories',
+  ),
+  'AOS_ProductsDashlet' => 
+  array (
+    'file' => 'modules/AOS_Products/Dashlets/AOS_ProductsDashlet/AOS_ProductsDashlet.php',
+    'class' => 'AOS_ProductsDashlet',
+    'meta' => 'modules/AOS_Products/Dashlets/AOS_ProductsDashlet/AOS_ProductsDashlet.meta.php',
+    'module' => 'AOS_Products',
   ),
   'AOS_QuotesDashlet' => 
   array (
@@ -201,19 +201,19 @@ $dashletsFiles = array (
     'file' => 'modules/Favorites/Dashlets/Favorites/FavoritesDashlet.php',
     'class' => 'FavoritesDashlet',
   ),
-  'FP_eventsDashlet' => 
-  array (
-    'file' => 'modules/FP_events/Dashlets/FP_eventsDashlet/FP_eventsDashlet.php',
-    'class' => 'FP_eventsDashlet',
-    'meta' => 'modules/FP_events/Dashlets/FP_eventsDashlet/FP_eventsDashlet.meta.php',
-    'module' => 'FP_events',
-  ),
   'FP_Event_LocationsDashlet' => 
   array (
     'file' => 'modules/FP_Event_Locations/Dashlets/FP_Event_LocationsDashlet/FP_Event_LocationsDashlet.php',
     'class' => 'FP_Event_LocationsDashlet',
     'meta' => 'modules/FP_Event_Locations/Dashlets/FP_Event_LocationsDashlet/FP_Event_LocationsDashlet.meta.php',
     'module' => 'FP_Event_Locations',
+  ),
+  'FP_eventsDashlet' => 
+  array (
+    'file' => 'modules/FP_events/Dashlets/FP_eventsDashlet/FP_eventsDashlet.php',
+    'class' => 'FP_eventsDashlet',
+    'meta' => 'modules/FP_events/Dashlets/FP_eventsDashlet/FP_eventsDashlet.meta.php',
+    'module' => 'FP_events',
   ),
   'ChartsDashlet' => 
   array (
@@ -334,9 +334,9 @@ $dashletsFiles = array (
   ),
   'SugarFeedDashlet' => 
   array (
-    'file' => 'modules/SugarFeed/Dashlets/SugarFeedDashlet/SugarFeedDashlet.php',
+    'file' => 'custom/modules/SugarFeed/Dashlets/SugarFeedDashlet/SugarFeedDashlet.php',
     'class' => 'SugarFeedDashlet',
-    'meta' => 'modules/SugarFeed/Dashlets/SugarFeedDashlet/SugarFeedDashlet.meta.php',
+    'meta' => 'custom/modules/SugarFeed/Dashlets/SugarFeedDashlet/SugarFeedDashlet.meta.php',
     'module' => 'SugarFeed',
   ),
   'MyTasksDashlet' => 

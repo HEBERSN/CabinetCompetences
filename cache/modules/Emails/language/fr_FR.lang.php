@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-13 00:35:15
+// created: 2016-05-14 15:00:08
 $mod_strings = array (
   'LBL_SECURITYGROUPS' => 'Groupes de sécurité',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
@@ -59,7 +59,7 @@ $mod_strings = array (
   'LBL_EMAIL' => 'Email:',
   'LBL_EMAILS_ACCOUNTS_REL' => 'Emails:Comptes',
   'LBL_EMAILS_BUGS_REL' => 'Emails:Bugs',
-  'LBL_EMAILS_CASES_REL' => 'Emails:Tickets',
+  'LBL_EMAILS_CASES_REL' => 'Emails:Sinistres',
   'LBL_EMAILS_CONTACTS_REL' => 'Emails:Contacts',
   'LBL_EMAILS_LEADS_REL' => 'Emails:Leads',
   'LBL_EMAILS_OPPORTUNITIES_REL' => 'Emails:Affaires',
@@ -167,7 +167,7 @@ $mod_strings = array (
   'LBL_BUTTON_REPLY_TITLE' => 'Répondre [Alt+R]',
   'LBL_BUTTON_REPLY' => 'Répondre',
   'LBL_BUTTON_REPLY_ALL' => 'Répondre à tous',
-  'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
+  'LBL_CASES_SUBPANEL_TITLE' => 'Sinistres',
   'LBL_INBOUND_TITLE' => 'Email',
   'LBL_INTENT' => 'Intent',
   'LBL_MESSAGE_ID' => 'ID Message',

@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 19:10:43
+// created: 2016-05-14 14:59:49
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -89,4 +89,5 @@ $mod_strings = array (
   'LBL_EXPORT_PARENT_TYPE' => 'Relatif à',
   'LBL_EXPORT_PARENT_ID' => 'Relatif à (ID)',
   'LBL_RELATED_TO' => 'Relatif à :',
+  'LBL_CASE' => 'Ticket',
 );

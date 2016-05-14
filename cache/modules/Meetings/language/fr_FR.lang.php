@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-13 00:35:16
+// created: 2016-05-14 15:00:07
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -153,4 +153,5 @@ $mod_strings = array (
   'LBL_REMINDERS_REMOVE_REMINDER' => 'Supprimer le rappel',
   'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Ajouter tous les invités',
   'LBL_REMINDERS_ADD_REMINDER' => 'Ajouter un rappel',
+  'LBL_CASE' => 'Ticket',
 );

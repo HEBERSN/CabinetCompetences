@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 19:10:43
+// created: 2016-05-14 14:59:48
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Créé le :',
@@ -79,7 +79,7 @@ $mod_strings = array (
   'LBL_HISTORY_SUBPANEL_TITLE' => 'Historique et Activités terminées',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
   'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Comptes',
-  'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
+  'LBL_CASES_SUBPANEL_TITLE' => 'Sinistres',
   'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projets',
   'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
   'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigné à',
@@ -91,4 +91,5 @@ $mod_strings = array (
   'LBL_EXPORT_FIXED_IN_RELEASE_NAMR' => 'Fixé dans la Release',
   'LBL_EXPORT_MODIFIED_USER_ID' => 'Modifié par (ID)',
   'LBL_EXPORT_CREATED_BY' => 'Créé par (ID)',
+  'LBL_CASES' => 'Sinistres',
 );

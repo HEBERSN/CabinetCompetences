@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-13 00:35:16
+// created: 2016-05-14 14:59:49
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création',
@@ -115,4 +115,13 @@ $mod_strings = array (
   'LBL_EXPORT_NAME' => 'Nom',
   'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Historique des emails des contacts liés',
   'TWITTER_USER_C' => 'Utilisateur Twitter',
+  'LBL_EDITVIEW_PANEL1' => 'Proposition',
+  'LBL_DATE_PROPOSITION' => 'Date proposition',
+  'LBL_MONTANT_PROPOSITION' => 'Montant (XOF)',
+  'LBL_DETAILVIEW_PANEL1' => 'Proposition écrite',
+  'LBL_PRIME' => 'Montant (XOF)',
+  'LBL_EDITVIEW_PANEL2' => 'Prime',
+  'LBL_PAIEMENT_PRIME' => 'Paiement',
+  'LBL_DATE_PAIEMENT_PRIME' => 'Date paiement ',
+  'LBL_DETAILVIEW_PANEL2' => 'Prime',
 );

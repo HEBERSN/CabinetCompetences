@@ -1,5 +1,5 @@
 <?php
-// created: 2016-04-12 19:10:43
+// created: 2016-05-14 14:59:49
 $mod_strings = array (
   'LBL_SECURITYGROUPS' => 'Groupes de sécurité',
   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
@@ -59,7 +59,7 @@ $mod_strings = array (
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
   'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Comptes',
   'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Affaires',
-  'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
+  'LBL_CASES_SUBPANEL_TITLE' => 'Sinistres',
   'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
   'LBL_PRODUCTS_SUBPANEL_TITLE' => 'Produits',
   'LBL_TASK_ID' => 'ID',
@@ -134,4 +134,5 @@ $mod_strings = array (
   'LBL_LIST_ASSIGNED_USER' => 'Manager du projet',
   'LBL_UNASSIGNED' => 'Non assigné',
   'LBL_PROJECT_USERS_1_FROM_USERS_TITLE' => 'Ressources',
+  'LBL_CASES' => 'Sinistres',
 );
