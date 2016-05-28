@@ -233,6 +233,63 @@
       'studio' => false,
     ),
   ),
+  'indices' => 
+  array (
+    'id' => 
+    array (
+      'name' => 'reminders_inviteespk',
+      'type' => 'primary',
+      'fields' => 
+      array (
+        0 => 'id',
+      ),
+    ),
+    0 => 
+    array (
+      'name' => 'idx_reminder_invitee_name',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'name',
+      ),
+    ),
+    1 => 
+    array (
+      'name' => 'idx_reminder_invitee_assigned_user_id',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'assigned_user_id',
+      ),
+    ),
+    2 => 
+    array (
+      'name' => 'idx_reminder_invitee_reminder_id',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'reminder_id',
+      ),
+    ),
+    3 => 
+    array (
+      'name' => 'idx_reminder_invitee_related_invitee_module',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'related_invitee_module',
+      ),
+    ),
+    4 => 
+    array (
+      'name' => 'idx_reminder_invitee_related_invitee_module_id',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'related_invitee_module_id',
+      ),
+    ),
+  ),
   'relationships' => 
   array (
     'reminders_invitees_modified_user' => 
@@ -264,18 +321,6 @@
       'rhs_table' => 'reminders_invitees',
       'rhs_key' => 'assigned_user_id',
       'relationship_type' => 'one-to-many',
-    ),
-  ),
-  'indices' => 
-  array (
-    'id' => 
-    array (
-      'name' => 'reminders_inviteespk',
-      'type' => 'primary',
-      'fields' => 
-      array (
-        0 => 'id',
-      ),
     ),
   ),
   'templates' => 

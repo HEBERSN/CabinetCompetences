@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-14 14:59:48
+// created: 2016-05-27 21:59:09
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création:',
@@ -20,7 +20,7 @@ $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
   'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
   'LBL_LIST_FORM_TITLE' => 'Liste des articles en devis',
-  'LBL_MODULE_NAME' => 'Ligne produit',
+  'LBL_MODULE_NAME' => 'Ligne police',
   'LBL_MODULE_TITLE' => 'Accueil articles en devis',
   'LBL_HOMEPAGE_TITLE' => 'Mes articles en devis',
   'LNK_NEW_RECORD' => 'Créer un article pour devis',
@@ -45,9 +45,9 @@ $mod_strings = array (
   'LBL_PRODUCT_TOTAL_PRICE' => 'Prix total',
   'LBL_PRODUCT_NOTE' => 'Notes',
   'Quote' => '',
-  'LBL_AOS_PRODUCTS_QUOTES_SUBPANEL_TITLE' => 'Devis produits',
+  'LBL_AOS_PRODUCTS_QUOTES_SUBPANEL_TITLE' => 'Devis polices',
   'LBL_FLEX_RELATE' => 'Rattachée à',
-  'LBL_PRODUCT' => 'Produit',
+  'LBL_PRODUCT' => 'Police',
   'LBL_SERVICE_MODULE_NAME' => 'Services',
   'LBL_LIST_NUM' => 'Numéro',
   'LBL_PARENT_ID' => 'Parent (ID):',
@@ -59,5 +59,5 @@ $mod_strings = array (
   'LBL_PRODUCT_DISCOUNT_USDOLLAR' => 'Remise (Monnaie par d&eacute;faut)',
   'LBL_PRODUCT_DISCOUNT_AMOUNT_USDOLLAR' => 'Montant de la remise (Monnaie par d&eacute;faut)',
   'LBL_VAT_AMT_USDOLLAR' => 'Montant des taxes (Monnaie par d&eacute;faut)',
-  'LBL_PRODUCTS_SERVICES' => 'Produit / Service',
+  'LBL_PRODUCTS_SERVICES' => 'Polices',
 );

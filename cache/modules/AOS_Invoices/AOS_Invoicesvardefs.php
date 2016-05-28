@@ -852,6 +852,24 @@
       ),
       'len' => '26,6',
     ),
+    'accounts' => 
+    array (
+      'name' => 'accounts',
+      'type' => 'link',
+      'relationship' => 'account_aos_invoices',
+      'module' => 'Accounts',
+      'bean_name' => 'Account',
+      'source' => 'non-db',
+    ),
+    'contacts' => 
+    array (
+      'name' => 'contacts',
+      'type' => 'link',
+      'relationship' => 'contact_aos_invoices',
+      'module' => 'Contacts',
+      'bean_name' => 'Contact',
+      'source' => 'non-db',
+    ),
     'aos_quotes_aos_invoices' => 
     array (
       'name' => 'aos_quotes_aos_invoices',

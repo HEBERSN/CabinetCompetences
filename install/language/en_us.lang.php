@@ -328,7 +328,6 @@ $mod_strings = array(
 	'LBL_LOCALE_NAME_LAST'				=> 'Livingstone',
 	'LBL_LOCALE_NAME_SALUTATION'		=> 'Dr.',
 	'LBL_LOCALE_TIMEF'					=> 'Default Time Format',
-	'LBL_LOCALE_TITLE'					=> 'Locale Settings',
     'LBL_CUSTOMIZE_LOCALE'              => 'Customize Locale Settings',
 	'LBL_LOCALE_UI'						=> 'User Interface',
 
@@ -679,6 +678,7 @@ $contact_user_link_guid',
 
 	'LBL_MORE_OPTIONS_TITLE' => 'More options',
 	'LBL_START' => '',
+	'LBL_DB_CONN_ERR' => 'Database error'
 
 
 );

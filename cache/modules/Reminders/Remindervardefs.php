@@ -271,6 +271,54 @@
       'studio' => false,
     ),
   ),
+  'indices' => 
+  array (
+    'id' => 
+    array (
+      'name' => 'reminderspk',
+      'type' => 'primary',
+      'fields' => 
+      array (
+        0 => 'id',
+      ),
+    ),
+    0 => 
+    array (
+      'name' => 'idx_reminder_name',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'name',
+      ),
+    ),
+    1 => 
+    array (
+      'name' => 'idx_reminder_deleted',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'deleted',
+      ),
+    ),
+    2 => 
+    array (
+      'name' => 'idx_reminder_related_event_module',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'related_event_module',
+      ),
+    ),
+    3 => 
+    array (
+      'name' => 'idx_reminder_related_event_module_id',
+      'type' => 'index',
+      'fields' => 
+      array (
+        0 => 'related_event_module_id',
+      ),
+    ),
+  ),
   'relationships' => 
   array (
     'reminders_modified_user' => 
@@ -302,18 +350,6 @@
       'rhs_table' => 'reminders',
       'rhs_key' => 'assigned_user_id',
       'relationship_type' => 'one-to-many',
-    ),
-  ),
-  'indices' => 
-  array (
-    'id' => 
-    array (
-      'name' => 'reminderspk',
-      'type' => 'primary',
-      'fields' => 
-      array (
-        0 => 'id',
-      ),
     ),
   ),
   'templates' => 

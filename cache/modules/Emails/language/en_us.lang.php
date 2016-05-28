@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-14 14:39:00
+// created: 2016-05-27 21:58:19
 $mod_strings = array (
   'LBL_FW' => 'FW:',
   'LBL_RE' => 'RE:',
@@ -65,6 +65,7 @@ $mod_strings = array (
   'LBL_EMAILS_PROJECT_REL' => 'Emails:Project',
   'LBL_EMAILS_PROJECT_TASK_REL' => 'Emails:ProjectTask',
   'LBL_EMAILS_PROSPECT_REL' => 'Emails:Prospect',
+  'LBL_EMAILS_CONTRACTS_REL' => 'Emails:Contract',
   'LBL_EMAILS_TASKS_REL' => 'Emails:Tasks',
   'LBL_EMAILS_USERS_REL' => 'Emails:Users',
   'LBL_EMPTY_FOLDER' => 'No Emails to display',

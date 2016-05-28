@@ -928,6 +928,24 @@
       ),
       'len' => '26,6',
     ),
+    'accounts' => 
+    array (
+      'name' => 'accounts',
+      'type' => 'link',
+      'relationship' => 'account_aos_quotes',
+      'module' => 'Accounts',
+      'bean_name' => 'Account',
+      'source' => 'non-db',
+    ),
+    'contacts' => 
+    array (
+      'name' => 'contacts',
+      'type' => 'link',
+      'relationship' => 'contact_aos_quotes',
+      'module' => 'Contacts',
+      'bean_name' => 'Contact',
+      'source' => 'non-db',
+    ),
     'opportunities' => 
     array (
       'name' => 'opportunities',

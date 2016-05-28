@@ -407,6 +407,14 @@
       'source' => 'non-db',
       'vname' => 'LBL_BUGS',
     ),
+    'aos_contracts' => 
+    array (
+      'name' => 'aos_contracts',
+      'type' => 'link',
+      'relationship' => 'aos_contracts_notes',
+      'source' => 'non-db',
+      'vname' => 'LBL_CONTRACT',
+    ),
     'emails' => 
     array (
       'name' => 'emails',

@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-14 14:38:57
+// created: 2016-05-27 21:56:42
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -68,6 +68,7 @@ $sugar_config = array (
     'min_cron_interval' => 30,
   ),
   'currency' => '',
+  'dashlet_auto_refresh_min' => '30',
   'dashlet_display_row_options' => 
   array (
     0 => '1',
@@ -216,14 +217,15 @@ $sugar_config = array (
   'default_locale_name_format' => 's f l',
   'default_max_tabs' => 10,
   'default_module' => 'Home',
+  'default_module_favicon' => false,
   'default_navigation_paradigm' => 'gm',
   'default_number_grouping_seperator' => ',',
   'default_password' => '',
   'default_permissions' => 
   array (
-    'dir_mode' => 1533,
-    'file_mode' => 509,
-    'user' => 'root',
+    'dir_mode' => 1528,
+    'file_mode' => 432,
+    'user' => '',
     'group' => '',
   ),
   'default_subpanel_links' => false,
@@ -235,9 +237,12 @@ $sugar_config = array (
   'default_user_is_admin' => false,
   'default_user_name' => '',
   'demoData' => 'no',
+  'developerMode' => true,
   'disable_convert_lead' => false,
   'disable_export' => false,
   'disable_persistent_connections' => false,
+  'disabled_languages' => 'en_us',
+  'disabled_themes' => ',',
   'display_email_template_variable_chooser' => false,
   'display_inbound_email_buttons' => false,
   'dump_slow_queries' => false,
@@ -245,6 +250,7 @@ $sugar_config = array (
   'email_default_client' => 'sugar',
   'email_default_delete_attachments' => true,
   'email_default_editor' => 'html',
+  'enable_action_menu' => true,
   'enable_line_editing_detail' => true,
   'enable_line_editing_list' => true,
   'export_delimiter' => ',',
@@ -262,7 +268,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 5,
+  'js_lang_version' => 7,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -334,7 +340,7 @@ $sugar_config = array (
       3 => 'Administration',
       4 => 'Sync',
     ),
-    'default_limit' => 1000,
+    'default_limit' => 20000,
   ),
   'rss_cache_time' => '10800',
   'save_query' => 'all',
@@ -355,9 +361,10 @@ $sugar_config = array (
   'showThemePicker' => true,
   'site_url' => 'http://localhost:8080/cabinetcompetences',
   'slow_query_time_msec' => '100',
-  'sugar_version' => '6.5.20',
+  'stack_trace_errors' => false,
+  'sugar_version' => '6.5.23',
   'sugarbeet' => false,
-  'suitecrm_version' => '7.5.2',
+  'suitecrm_version' => '7.6.3',
   'time_formats' => 
   array (
     'H:i' => '23:00',
@@ -399,11 +406,4 @@ $sugar_config = array (
   'use_real_names' => true,
   'vcal_time' => '2',
   'verify_client_ip' => true,
-  'disabled_languages' => 'en_us',
-  'disabled_themes' => ',',
-  'default_module_favicon' => false,
-  'dashlet_auto_refresh_min' => '30',
-  'enable_action_menu' => true,
-  'stack_trace_errors' => false,
-  'developerMode' => true,
 );

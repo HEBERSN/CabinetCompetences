@@ -10087,6 +10087,73 @@
     'rhs_key' => 'parent_id',
     'relationship_type' => 'one-to-many',
   ),
+  'emails_aos_contracts_rel' => 
+  array (
+    'name' => 'emails_aos_contracts_rel',
+    'lhs_module' => 'Emails',
+    'lhs_table' => 'emails',
+    'lhs_key' => 'id',
+    'rhs_module' => 'AOS_Contracts',
+    'rhs_table' => 'aos_contracts',
+    'rhs_key' => 'id',
+    'relationship_type' => 'many-to-many',
+    'join_table' => 'emails_beans',
+    'join_key_lhs' => 'email_id',
+    'join_key_rhs' => 'bean_id',
+    'relationship_role_column' => 'bean_module',
+    'relationship_role_column_value' => 'AOS_Contracts',
+    'fields' => 
+    array (
+      0 => 
+      array (
+        'name' => 'id',
+        'type' => 'varchar',
+        'dbType' => 'id',
+        'len' => '36',
+      ),
+      1 => 
+      array (
+        'name' => 'email_id',
+        'type' => 'varchar',
+        'dbType' => 'id',
+        'len' => '36',
+        'comment' => 'FK to emails table',
+      ),
+      2 => 
+      array (
+        'name' => 'bean_id',
+        'dbType' => 'id',
+        'type' => 'varchar',
+        'len' => '36',
+        'comment' => 'FK to various beans\'s tables',
+      ),
+      3 => 
+      array (
+        'name' => 'bean_module',
+        'type' => 'varchar',
+        'len' => '100',
+        'comment' => 'bean\'s Module',
+      ),
+      4 => 
+      array (
+        'name' => 'campaign_data',
+        'type' => 'text',
+      ),
+      5 => 
+      array (
+        'name' => 'date_modified',
+        'type' => 'datetime',
+      ),
+      6 => 
+      array (
+        'name' => 'deleted',
+        'type' => 'bool',
+        'len' => '1',
+        'default' => '0',
+        'required' => false,
+      ),
+    ),
+  ),
   'emails_meetings_rel' => 
   array (
     'name' => 'emails_meetings_rel',
@@ -11462,6 +11529,58 @@
         'default' => '0',
       ),
     ),
+  ),
+  'aos_contracts_tasks' => 
+  array (
+    'name' => 'aos_contracts_tasks',
+    'lhs_module' => 'AOS_Contracts',
+    'lhs_table' => 'aos_contracts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Tasks',
+    'rhs_table' => 'tasks',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Contracts',
+  ),
+  'aos_contracts_notes' => 
+  array (
+    'name' => 'aos_contracts_notes',
+    'lhs_module' => 'AOS_Contracts',
+    'lhs_table' => 'aos_contracts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Notes',
+    'rhs_table' => 'notes',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Contracts',
+  ),
+  'aos_contracts_meetings' => 
+  array (
+    'name' => 'aos_contracts_meetings',
+    'lhs_module' => 'AOS_Contracts',
+    'lhs_table' => 'aos_contracts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Meetings',
+    'rhs_table' => 'meetings',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Contracts',
+  ),
+  'aos_contracts_calls' => 
+  array (
+    'name' => 'aos_contracts_calls',
+    'lhs_module' => 'AOS_Contracts',
+    'lhs_table' => 'aos_contracts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Calls',
+    'rhs_table' => 'calls',
+    'rhs_key' => 'parent_id',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => 'parent_type',
+    'relationship_role_column_value' => 'AOS_Contracts',
   ),
   'aos_contracts_aos_products_quotes' => 
   array (
@@ -12889,6 +13008,72 @@
     'lhs_key' => 'id',
     'rhs_module' => 'SecurityGroups',
     'rhs_table' => 'securitygroups',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'outbound_email_modified_user' => 
+  array (
+    'name' => 'outbound_email_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'OutboundEmailAccounts',
+    'rhs_table' => 'outbound_email',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'outbound_email_created_by' => 
+  array (
+    'name' => 'outbound_email_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'OutboundEmailAccounts',
+    'rhs_table' => 'outbound_email',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'outbound_email_assigned_user' => 
+  array (
+    'name' => 'outbound_email_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'OutboundEmailAccounts',
+    'rhs_table' => 'outbound_email',
+    'rhs_key' => 'assigned_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'templatesectionline_modified_user' => 
+  array (
+    'name' => 'templatesectionline_modified_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'TemplateSectionLine',
+    'rhs_table' => 'templatesectionline',
+    'rhs_key' => 'modified_user_id',
+    'relationship_type' => 'one-to-many',
+  ),
+  'templatesectionline_created_by' => 
+  array (
+    'name' => 'templatesectionline_created_by',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'TemplateSectionLine',
+    'rhs_table' => 'templatesectionline',
+    'rhs_key' => 'created_by',
+    'relationship_type' => 'one-to-many',
+  ),
+  'templatesectionline_assigned_user' => 
+  array (
+    'name' => 'templatesectionline_assigned_user',
+    'lhs_module' => 'Users',
+    'lhs_table' => 'users',
+    'lhs_key' => 'id',
+    'rhs_module' => 'TemplateSectionLine',
+    'rhs_table' => 'templatesectionline',
     'rhs_key' => 'assigned_user_id',
     'relationship_type' => 'one-to-many',
   ),

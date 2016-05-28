@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2016-05-06 14:54:10
+<?php /* Smarty version 2.6.29, created on 2016-05-27 21:58:20
          compiled from themes/SuiteR/tpls/_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'themes/SuiteR/tpls/_headerModuleList.tpl', 53, false),)), $this); ?>
@@ -604,7 +604,7 @@ if ($this->_foreach['lastViewed']['total'] > 0):
         $this->_foreach['lastViewed']['iteration']++;
 ?>
                             <div class="recently_viewed_link_container_sidebar" id="<?php echo $this->_tpl_vars['item']['id']; ?>
-">
+_favorite">
                                 <li class="recentlinks_edit"><a href="<?php echo smarty_function_sugar_link(array('module' => $this->_tpl_vars['item']['module_name'],'action' => 'EditView','record' => $this->_tpl_vars['item']['id'],'link_only' => 1), $this);?>
 " style="margin-left:10px;"><span class=" glyphicon glyphicon-pencil" aria-hidden="true"></a></li>
                                 <li class="recentlinks" role="presentation">

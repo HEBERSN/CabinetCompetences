@@ -224,6 +224,7 @@
       'reportable' => false,
       'len' => '255',
       'size' => '20',
+      'write_only' => true,
     ),
     'url' => 
     array (

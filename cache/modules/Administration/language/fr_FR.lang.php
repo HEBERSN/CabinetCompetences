@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-14 14:39:00
+// created: 2016-05-27 21:58:20
 $mod_strings = array (
   'LBL_CAPTCHA_HELP_TEXT' => 'Captcha est un système de type question/réponse utilisé pour s&#39;assurer que la réponse n&#39;est pas générée par un ordinateur. Vous pouvez obtenir une clé publique et une clé privée pour reCAPTCHA sur http://recaptcha.net/.',
   'CAPTCHA' => 'Validation par Captcha',

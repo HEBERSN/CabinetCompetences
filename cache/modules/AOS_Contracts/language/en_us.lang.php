@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-14 14:39:02
+// created: 2016-05-27 21:58:19
 $mod_strings = array (
   'LBL_ASSIGNED_TO_NAME' => 'Contract Manager',
   'LBL_CONTRACT_ACCOUNT' => 'Account',
@@ -77,6 +77,7 @@ $mod_strings = array (
   'LBL_PDF_NAME' => 'Contract',
   'LBL_EMAIL_NAME' => 'Contract for',
   'LBL_NO_TEMPLATE' => 'ERROR\\nNo templates found. If you have not created an Contract template, go to the PDF templates module and create one',
+  'LBL_TOTAL_CONTRACT_VALUE_USDOLLAR' => 'Contract Value (Default Currency)',
   'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Subtotal (Default Currency)',
   'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Discount (Default Currency)',
   'LBL_TAX_AMOUNT_USDOLLAR' => 'Tax (Default Currency)',

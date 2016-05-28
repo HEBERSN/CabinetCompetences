@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-06 17:53:55
+// created: 2016-05-27 21:57:49
 $dashletsFiles = array (
   'MyAccountsDashlet' => 
   array (
@@ -318,6 +318,13 @@ $dashletsFiles = array (
     'meta' => 'modules/Opportunities/Dashlets/MyOpportunitiesDashlet/MyOpportunitiesDashlet.meta.php',
     'module' => 'Opportunities',
   ),
+  'OutboundEmailAccountsDashlet' => 
+  array (
+    'file' => 'modules/OutboundEmailAccounts/Dashlets/OutboundEmailAccountsDashlet/OutboundEmailAccountsDashlet.php',
+    'class' => 'OutboundEmailAccountsDashlet',
+    'meta' => 'modules/OutboundEmailAccounts/Dashlets/OutboundEmailAccountsDashlet/OutboundEmailAccountsDashlet.meta.php',
+    'module' => 'OutboundEmailAccounts',
+  ),
   'MyProjectDashlet' => 
   array (
     'file' => 'modules/Project/Dashlets/MyProjectDashlet/MyProjectDashlet.php',
@@ -345,5 +352,12 @@ $dashletsFiles = array (
     'class' => 'MyTasksDashlet',
     'meta' => 'modules/Tasks/Dashlets/MyTasksDashlet/MyTasksDashlet.meta.php',
     'module' => 'Tasks',
+  ),
+  'TemplateSectionLineDashlet' => 
+  array (
+    'file' => 'modules/TemplateSectionLine/Dashlets/TemplateSectionLineDashlet/TemplateSectionLineDashlet.php',
+    'class' => 'TemplateSectionLineDashlet',
+    'meta' => 'modules/TemplateSectionLine/Dashlets/TemplateSectionLineDashlet/TemplateSectionLineDashlet.meta.php',
+    'module' => 'TemplateSectionLine',
   ),
 );

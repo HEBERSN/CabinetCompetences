@@ -1,5 +1,5 @@
 <?php
-// created: 2016-05-14 14:59:48
+// created: 2016-05-27 21:59:29
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date de création:',
@@ -153,6 +153,6 @@ $mod_strings = array (
   'LBL_PHONE_ALTERNATE' => 'Téléphone autre',
   'LBL_EXPORT_ASSIGNED_USER_NAME' => 'Assigné à',
   'LBL_CONTACT_HISTORY_SUBPANEL_TITLE' => 'Historique des emails des contacts liés',
-  'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Produits et services achetés',
+  'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Polices assurées',
   'LBL_CASES' => 'Sinistres',
 );
